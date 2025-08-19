@@ -12,9 +12,9 @@
   height: 35px;
 }
 .icon {
-  height: 40px;
-  width: 40px;
-  border-radius: 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
   background-color: white;
   color: black;
   display: flex;
@@ -343,6 +343,8 @@
   height: 1120px;
   width: 1440px;
   display: flex;
+}
+.last-text {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -406,10 +408,8 @@
   border-radius: 200px;
   background-color: #a4d1e2;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: end;
 }
 .package-section:hover {
   opacity: 0.5;
@@ -418,10 +418,7 @@ section-hoyr {
   display: flex;
   gap: 20px;
 }
-.last {
-  display: flex;
-  gap: 24px;
-}
+
 .fb {
   width: 167px;
   height: 43px;
@@ -436,4 +433,22 @@ section-hoyr {
 .fb-2 {
   width: 25px;
   height: 25px;
+}
+.bugdere {
+  display: flex;
+  align-items: start;
+}
+.sd-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.last-section {
+  display: flex;
+  flex-direction: column;
 }
